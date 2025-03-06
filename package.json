@@ -1,0 +1,20 @@
+{
+  "name": "blob",
+  "version": "1.0.0",
+  "description": "Bob the blob",
+  "main": "build/index.js",
+  "scripts": {
+    "cp": "copyfiles -u 1 src/index.html src/index.css build",
+    "build": "tsc -w && npm run cp",
+    "start": "http-server build -c-1 -p 3000 & reload -b -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "http-server": "^14.1.1",
+    "reload": "^3.3.0",
+    "typescript": "^5.8.2"
+  }
+}

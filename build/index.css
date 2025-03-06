@@ -1,0 +1,12 @@
+:root {
+    --background: #050712;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    margin: 0px;
+    padding: 8px;
+    box-sizing: border-box;
+}
