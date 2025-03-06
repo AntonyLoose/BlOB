@@ -21,6 +21,11 @@
 
 ### Static Objects
 
+## Camera
+
+- The camera should follow the player
+- The y position of the camera should dictate what is drawn
+
 ## Renderer
 
 - Is responsible for drawing the canvas
