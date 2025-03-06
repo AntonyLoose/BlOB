@@ -3,7 +3,7 @@ import { State_Manager } from "../state/state-manager.js";
 export class Dev_Scene {
     constructor() {
         const res = State_Manager.resolution.read();
-        this._grid = new Grid(3, 3, res.width, res.height, res.height * 6);
+        this._grid = new Grid(4, 4, res.width, res.height, res.height * 6);
         this._canvas = document.createElement("canvas");
         this._canvas.width = res.width;
         this._canvas.height = res.height;

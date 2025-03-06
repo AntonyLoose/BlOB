@@ -19,8 +19,6 @@
 - Must have a rigidity constant
   - This constant will impact the effect of forces on the shape of the object
 
-### Static Objects
-
 ## Camera
 
 - The camera should follow the player
@@ -37,6 +35,11 @@
 - Should only draw items that are within the current display (x, y coordinates)
 - using our grid system that the collisions will use we should be able to efficiently
   check what is in the current bounds
+- `draw_scene`
+- `draw_background`
+- `draw_player`
+- `draw_npcs`
+- `draw`
 
 ## Collisions
 

@@ -1,10 +1,12 @@
 export abstract class Game_Object {
     public x: number;
     public y: number;
+    public stickyness: number;
 
-    public constructor(x: number, y: number) {
+    public constructor(x: number, y: number, stickyness: number) {
         this.x = x;
         this.y = y;
+        this.stickyness = stickyness;
     }
 
     /**

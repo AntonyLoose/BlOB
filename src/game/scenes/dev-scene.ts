@@ -10,8 +10,8 @@ export class Dev_Scene implements Scene {
     public constructor() {
         const res = State_Manager.resolution.read();
         this._grid = new Grid(
-            3,
-            3,
+            4,
+            4,
             res.width,
             res.height,
             res.height * 6
