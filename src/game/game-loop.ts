@@ -18,7 +18,8 @@ export class Game_Loop {
     public tick(elapsed_millis: number) {
         const canvas = this._scene.get_canvas();
         this._scene.clear_canvas();
-        this._scene.get_grid().draw(canvas);
+        this._player.vx -= 0.001;
+        this._player.x += this._player.vx;
         this._player.draw(canvas);
     }
 }

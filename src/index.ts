@@ -5,7 +5,11 @@ import { Dev_Scene } from "./game/scenes/dev-scene.js";
 let elapsed_millis = 0;
 let interval = 16.667; // Roughly 60fps
 const scene = new Dev_Scene();
-const player = new Player(200, 200);
+// collision handler
+// physics handler
+// io handler
+// renderer
+const player = new Player(1000, 1000);
 const game_loop = new Game_Loop(scene, player);
 
 setInterval(() => {
