@@ -12,6 +12,5 @@ export abstract class Game_Object {
     * coordinates are inside this object.
     */
     public abstract in(x: number, y: number): boolean;
-
     public abstract draw(canvas: HTMLCanvasElement): void;
 }
