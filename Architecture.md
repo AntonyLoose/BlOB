@@ -26,9 +26,14 @@
 - The camera should follow the player
 - The y position of the camera should dictate what is drawn
 
+## Scene
+
+- Contains a level layout, platforms, npcs, etc
+- Should be able to get elements in current screen i.e. `get_in_view(camera: Camera)`;
+
 ## Renderer
 
-- Is responsible for drawing the canvas
+- Is responsible for drawing the scene
 - Should only draw items that are within the current display (x, y coordinates)
 - using our grid system that the collisions will use we should be able to efficiently
   check what is in the current bounds
